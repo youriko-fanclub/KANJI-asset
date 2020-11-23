@@ -1,10 +1,1 @@
 [develop] # お試し用、これを呼び出すコードはPR前に必ず削除する
-  [develop.physicalchara.font]
-    name = "KouzanMouhituFontOTF.otf"
-    size = 70
-  [develop.physicalchara.edge.font]
-    name = "KouzanMouhituFontOTF.otf"
-    size = 75
-  [develop.physicalchara.position]
-    x = -20
-    y = -30

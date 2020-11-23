@@ -9,6 +9,11 @@
         x = 200
         y = 200
     [battle.ui.object]
+      [battle.ui.object.physical]
+        [battle.ui.object.physical.chara]
+          [battle.ui.object.physical.chara.font]
+            name = "KouzanMouhituFontOTF.otf"
+            size = 70
       [battle.ui.object.holder]
         [battle.ui.object.holder.interval]
           2 = 500
