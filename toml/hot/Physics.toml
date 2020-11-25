@@ -2,11 +2,11 @@
 
   [physics.chara]
     friction = 1.3
-    air_resistance = 0.9
+    air_resistance = 15
 
     [physics.chara.force]
       horizontal = 10.0
-      jump = 10.0
+      jump = 100.0
 
   [physics.floor]
     friction = 1.3
