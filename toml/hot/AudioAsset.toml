@@ -1,0 +1,110 @@
+[asset.audio]
+
+  [asset.audio.bgm]
+    [asset.audio.bgm.title]
+      key = "Title"
+    [asset.audio.bgm.menu]
+      key = "Menu"
+      is_loop = true
+    [asset.audio.bgm.battle01]
+      key = "Battle01"
+      is_loop = true
+    [asset.audio.bgm.battle02]
+      key = "Battle02"
+      is_loop = true
+    [asset.audio.bgm.battle03]
+      key = "Battle03"
+      is_loop = true
+    [asset.audio.bgm.result]
+      key = "Result"
+      is_loop = true
+  [asset.audio.se]
+    [asset.audio.se.system]
+      [asset.audio.se.system.decide]
+        key = "System::Decide"
+        path = "System/Decide"
+      [asset.audio.se.system.cancel]
+        key = "System::Cancel"
+        path = "System/Cancel"
+      [asset.audio.se.system.choose]
+        key = "System::Choose"
+        path = "System/Choose"
+    [asset.audio.se.battle]
+      [asset.audio.se.battle.game]
+        [asset.audio.se.battle.game.game_start]
+          key = "Battle::Game::GameStart"
+          path = "Battle/Game/GameStart"
+        [asset.audio.se.battle.game.game_set]
+          key = "Battle::Game::GameSet"
+          path = "Battle/Game/GameSet"
+      [asset.audio.se.battle.chara]
+        [asset.audio.se.battle.chara.appear]
+          key = "Battle::Chara::Appear"
+          path = "Battle/Chara/Appear"
+        [asset.audio.se.battle.chara.burn_out]
+          key = "Battle::Chara::BurnOut"
+          path = "Battle/Chara/BurnOut"
+        [asset.audio.se.battle.chara.chara_rotation]
+          key = "Battle::Chara::CharaRotation"
+          path = "Battle/Chara/CharaRotation"
+        [asset.audio.se.battle.chara.damage]
+          key = "Battle::Chara::Damage"
+          path = "Battle/Chara/Damage"
+        [asset.audio.se.battle.chara.get_radical_simple]
+          key = "Battle::Chara::GetRadicalSimple"
+          path = "Battle/Chara/GetRadicalSimple"
+        [asset.audio.se.battle.chara.get_radical_gorgeous]
+          key = "Battle::Chara::GetRadicalGorgeous"
+          path = "Battle/Chara/GetRadicalGorgeous"
+      [asset.audio.se.battle.move]
+        [asset.audio.se.battle.move.normal]
+          key = "Battle::Move::Normal"
+          path = "Battle/Move/Normal"
+        [asset.audio.se.battle.move.normal_with_radical]
+          key = "Battle::Move::NormalWithRadical"
+          path = "Battle/Move/NormalWithRadical"
+        [asset.audio.se.battle.move.special]
+          key = "Battle::Move::Special"
+          path = "Battle/Move/Special"
+        [asset.audio.se.battle.move.special.aburu]
+          key = "Battle::Move::Special::Aburu"
+          path = "Battle/Move/Special/Aburu"
+        [asset.audio.se.battle.move.special.arashi]
+          key = "Battle::Move::Special::Arashi"
+          path = "Battle/Move/Special/Arashi"
+        [asset.audio.se.battle.move.special.hoshi]
+          key = "Battle::Move::Special::Hoshi"
+          path = "Battle/Move/Special/Hoshi"
+        [asset.audio.se.battle.move.special.ikaduchi]
+          key = "Battle::Move::Special::Ikaduchi"
+          path = "Battle/Move/Special/Ikaduchi"
+        [asset.audio.se.battle.move.special.katamari_rolling]
+          key = "Battle::Move::Special::KatamariRolling"
+          path = "Battle/Move/Special/KatamariRolling"
+        [asset.audio.se.battle.move.special.katamari_scrape]
+          key = "Battle::Move::Special::KatamariScrape"
+          path = "Battle/Move/Special/KatamariScrape"
+        [asset.audio.se.battle.move.special.kiri]
+          key = "Battle::Move::Special::Kiri"
+          path = "Battle/Move/Special/Kiri"
+        [asset.audio.se.battle.move.special.komainu_bark]
+          key = "Battle::Move::Special::KomainuBark"
+          path = "Battle/Move/Special/KomainuBark"
+        [asset.audio.se.battle.move.special.komainu_growl]
+          key = "Battle::Move::Special::KomainuGrowl"
+          path = "Battle/Move/Special/KomainuGrowl"
+        [asset.audio.se.battle.move.special.kuruu]
+          key = "Battle::Move::Special::Kuruu"
+          path = "Battle/Move/Special/Kuruu"
+        [asset.audio.se.battle.move.special.noroi]
+          key = "Battle::Move::Special::Noroi"
+          path = "Battle/Move/Special/Noroi"
+        [asset.audio.se.battle.move.special.tagane]
+          key = "Battle::Move::Special::Tagane"
+          path = "Battle/Move/Special/Tagane"
+        [asset.audio.se.battle.move.special.toki]
+          key = "Battle::Move::Special::Toki"
+          path = "Battle/Move/Special/Toki"
+
+
+
