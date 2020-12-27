@@ -1,4 +1,4 @@
 [system]
 
   [system.scene]
-    initial = "Battle"
+    initial = "Title"

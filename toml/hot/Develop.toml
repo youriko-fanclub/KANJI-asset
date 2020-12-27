@@ -1,0 +1,8 @@
+[develop] # お試し用、これを呼び出すコードはPR前に必ず削除する
+  [develop.arrow]
+    from = 2
+    to = 3.75
+    width = 1.2
+    [develop.arrow.headsize]
+      x = 1
+      y = 1

@@ -1,0 +1,150 @@
+[battle]
+  [battle.debug_desc]
+    timelimit = 200
+    stage_id = 0
+  [battle.ui]
+    [battle.ui.base]
+      scale = 5
+      [battle.ui.base.center]
+        x = 200
+        y = 200
+    [battle.ui.object]
+      [battle.ui.object.physical]
+        [battle.ui.object.physical.chara]
+          [battle.ui.object.physical.chara.font]
+            name = "KouzanMouhituFontOTF.otf"
+            size = 70
+      [battle.ui.object.holder]
+        [battle.ui.object.holder.interval]
+          2 = 500
+          3 = 300
+          4 = 250
+        [battle.ui.object.holder.base]
+          [battle.ui.object.holder.base.center]
+            [battle.ui.object.holder.base.center.1]
+              x = 512
+              y = 655
+            [battle.ui.object.holder.base.center.2]
+              x = 262
+              y = 655
+            [battle.ui.object.holder.base.center.3]
+              x = 212
+              y = 655
+            [battle.ui.object.holder.base.center.4]
+              x = 137
+              y = 655
+          [battle.ui.object.holder.base.size]
+            w = 42
+            h = 42
+        [battle.ui.object.holder.circle]
+          [battle.ui.object.holder.circle.above]
+            fontsize = 40
+            r = 11
+            [battle.ui.object.holder.circle.above.center]
+              x = 0
+              y = -7
+            [battle.ui.object.holder.circle.above.font]
+              name = "KouzanMouhituFontOTF.otf"
+              size = 80
+          [battle.ui.object.holder.circle.left]
+            r = 7
+            [battle.ui.object.holder.circle.left.center]
+              x = -10
+              y = 12
+            [battle.ui.object.holder.circle.left.font]
+              name = "KouzanMouhituFontOTF.otf"
+              size = 50
+          [battle.ui.object.holder.circle.right]
+            r = 7
+            [battle.ui.object.holder.circle.right.center]
+              x = 10
+              y = 12
+            [battle.ui.object.holder.circle.right.font] # 現状leftと共通のため不使用、変更しても反映されません
+              name = "KouzanMouhituFontOTF.otf"
+              size = 50
+        [battle.ui.object.holder.radical]
+          [battle.ui.object.holder.radical.base]
+            [battle.ui.object.holder.radical.base.center]
+              x = -16
+              y = -16
+            [battle.ui.object.holder.radical.base.size]
+              w = 9
+              h = 9
+            [battle.ui.object.holder.radical.font]
+              name = "KouzanMouhituFontOTF.otf"
+              size = 40
+        [battle.ui.object.holder.color]
+          [battle.ui.object.holder.color.1P]
+            [battle.ui.object.holder.color.1P.base]
+              r = 0.86
+              g = 0.47
+              b = 0.35
+            [battle.ui.object.holder.color.1P.circle]
+              r = 0.96
+              g = 0.92
+              b = 0.67
+            [battle.ui.object.holder.color.1P.damage]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+              a = 0.60
+            [battle.ui.object.holder.color.1P.radical]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+          [battle.ui.object.holder.color.2P]
+            [battle.ui.object.holder.color.2P.base]
+              r = 0.35
+              g = 0.47
+              b = 0.86
+            [battle.ui.object.holder.color.2P.circle]
+              r = 0.96
+              g = 0.92
+              b = 0.67
+            [battle.ui.object.holder.color.2P.damage]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+              a = 0.60
+            [battle.ui.object.holder.color.2P.radical]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+          [battle.ui.object.holder.color.3P]
+            [battle.ui.object.holder.color.3P.base]
+              r = 0.93
+              g = 0.72
+              b = 0.30
+            [battle.ui.object.holder.color.3P.circle]
+              r = 0.96
+              g = 0.92
+              b = 0.67
+            [battle.ui.object.holder.color.3P.damage]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+              a = 0.60
+            [battle.ui.object.holder.color.3P.radical]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+          [battle.ui.object.holder.color.4P]
+            [battle.ui.object.holder.color.4P.base]
+              r = 0.25
+              g = 0.66
+              b = 0.27
+            [battle.ui.object.holder.color.4P.circle]
+              r = 0.96
+              g = 0.92
+              b = 0.67
+            [battle.ui.object.holder.color.4P.damage]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+              a = 0.60
+            [battle.ui.object.holder.color.4P.radical]
+              r = 0.30
+              g = 0.30
+              b = 0.30
+
+
