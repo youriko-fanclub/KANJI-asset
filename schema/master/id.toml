@@ -1,0 +1,13 @@
+[id] # schema/master/id.toml
+  [id.kanji]
+    name = "Kanji"
+    begin = 0
+    end   = 999999
+  [id.radical]
+    name = "Radical"
+    begin = 1000000
+    end   = 1999999
+  [id.move]
+    name = "Move"
+    begin = 2000000
+    end   = 2999999
