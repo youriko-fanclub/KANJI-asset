@@ -1,0 +1,46 @@
+# masterdata の型定義
+# - 用途
+#   - 実データtoml の vaildation
+#   - MasterData型 hpp/cpp の自動生成
+# - 記法
+#   - [masterdata.<DIRECTORY_NAME>.<FILE_NAME>] (snake_case)
+#   - data_type_name = <CPP_TYPE_NAME>
+#   - 以下、メンバ変数名と型情報を列挙
+#   - id の場合、型情報を ID:XXX とすることで validation が実行される
+[masterdata]
+
+  [masterdata.kanji]
+
+    [masterdata.kanji.kanji_parameter]
+      data_type_name = "KanjiParam"
+      [masterdata.kanji.kanji_parameter.field]
+        id = "ID:Kanji"
+        attack  = "int"
+        defence = "int"
+        speed   = "int"
+        jump    = "int"
+        weight  = "int"
+
+    [masterdata.kanji.kanji_dictionary]
+      data_type_name = "KanjiDictionary"
+      [masterdata.kanji.kanji_dictionary.field]
+        id = "ID:Kanji"
+        character = "string"
+        trivia = "string"
+
+    [masterdata.kanji.radical_parameter]
+      data_type_name = "RadicalParam"
+      [masterdata.kanji.radical_parameter.field]
+        id = "ID:Radical"
+        attack  = "int"
+        defence = "int"
+        speed   = "int"
+        jump    = "int"
+        weight  = "int"
+
+    [masterdata.kanji.radical_dictionary]
+      data_type_name = "RadicalDictionary"
+      [masterdata.kanji.radical_dictionary.field]
+        id = "ID:Radical"
+        character = "string"
+        trivia = "string"
