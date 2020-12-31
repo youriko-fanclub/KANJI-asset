@@ -1,0 +1,181 @@
+[masterdata.kanji.radical.param]
+
+  [masterdata.kanji.radical.param.chikara]
+    id = 1000000
+    character = "力"
+    attack  = 30
+    defence = 10
+    speed   = 10
+    jump    = 10
+    weight  =  1
+
+  [masterdata.kanji.radical.param.hito]
+    id = 1000001
+    character = "人"
+    attack  = 10
+    defence = 10
+    speed   = 10
+    jump    = 10
+    weight  =  1
+
+  [masterdata.kanji.radical.param.kusa]
+    id = 1000002
+    character = "艸"
+    attack  = 10
+    defence = 10
+    speed   = 20
+    jump    = 10
+    weight  =  1
+
+  [masterdata.kanji.radical.param.kuchi]
+    id = 1000003
+    character = "口"
+    attack  = 10
+    defence = 10
+    speed   = 10
+    jump    = 10
+    weight  =  1
+
+  [masterdata.kanji.radical.param.mizu]
+    id = 1000004
+    character = "水"
+    attack  = 10
+    defence = 20
+    speed   = 10
+    jump    = 10
+    weight  =  1
+
+  [masterdata.kanji.radical.param.tsuchi]
+    id = 1000005
+    character = "土"
+    attack  = 20
+    defence = 20
+    speed   =  0
+    jump    =  0
+    weight  =  2
+
+  [masterdata.kanji.radical.param.yama]
+    id = 1000006
+    character = "山"
+    attack  = 20
+    defence = 20
+    speed   =  0
+    jump    =  0
+    weight  =  3
+
+  [masterdata.kanji.radical.param.ki]
+    id = 1000007
+    character = "木"
+    attack  = 10
+    defence = 20
+    speed   =  0
+    jump    =  0
+    weight  =  1
+
+  [masterdata.kanji.radical.param.kokoro]
+    id = 1000008
+    character = "心"
+    attack  = 20
+    defence = 10
+    speed   = 20
+    jump    = 10
+    weight  =  0
+
+  [masterdata.kanji.radical.param.tsuki]
+    id = 1000009
+    character = "月"
+    attack  = 10
+    defence = 30
+    speed   = 10
+    jump    = 20
+    weight  =  2
+
+  [masterdata.kanji.radical.param.nichi]
+    id = 1000010
+    character = "日"
+    attack  = 20
+    defence = 20
+    speed   =  0
+    jump    = 20
+    weight  =  3
+
+  [masterdata.kanji.radical.param.hi]
+    id = 1000011
+    character = "火"
+    attack  = 30
+    defence =  0
+    speed   = 30
+    jump    = 30
+    weight  =  0
+
+  [masterdata.kanji.radical.param.ishi]
+    id = 1000012
+    character = "石"
+    attack  = 20
+    defence = 30
+    speed   =  0
+    jump    =  0
+    weight  =  3
+
+  [masterdata.kanji.radical.param.yamai]
+    id = 1000013
+    character = "病"
+    attack  = 50
+    defence =  0
+    speed   =  0
+    jump    =  0
+    weight  =  0
+
+  [masterdata.kanji.radical.param.take]
+    id = 1000014
+    character = "竹"
+    attack  = 10
+    defence = 20
+    speed   = 10
+    jump    = 10
+    weight  =  1
+
+  [masterdata.kanji.radical.param.kotoba]
+    id = 1000015
+    character = "言"
+    attack  = 10
+    defence = 10
+    speed   = 20
+    jump    = 20
+    weight  =  0
+
+  [masterdata.kanji.radical.param.ame]
+    id = 1000016
+    character = "雨"
+    attack  = 20
+    defence = 20
+    speed   = 10
+    jump    =  0
+    weight  =  1
+
+  [masterdata.kanji.radical.param.kane]
+    id = 1000017
+    character = "金"
+    attack  = 20
+    defence = 10
+    speed   = 20
+    jump    = 10
+    weight  =  2
+
+  [masterdata.kanji.radical.param.kaze]
+    id = 1000018
+    character = "風"
+    attack  = 20
+    defence =  0
+    speed   = 30
+    jump    = 30
+    weight  =  0
+
+  [masterdata.kanji.radical.param.kemono]
+    id = 1000019
+    character = "獣"
+    attack  = 30
+    defence = 10
+    speed   = 20
+    jump    = 20
+    weight  =  1
