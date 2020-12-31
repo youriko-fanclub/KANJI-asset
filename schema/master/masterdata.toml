@@ -15,6 +15,7 @@
       data_type_name = "KanjiParam"
       [masterdata.kanji.kanji_parameter.field]
         id = "ID:Kanji"
+        character = "string"
         attack  = "int"
         defence = "int"
         speed   = "int"
@@ -32,6 +33,7 @@
       data_type_name = "RadicalParam"
       [masterdata.kanji.radical_parameter.field]
         id = "ID:Radical"
+        character = "string"
         attack  = "int"
         defence = "int"
         speed   = "int"
@@ -44,3 +46,10 @@
         id = "ID:Radical"
         character = "string"
         trivia = "string"
+
+    [masterdata.kanji.kanji_consist]
+      data_type_name = "KanjiConsist"
+      [masterdata.kanji.kanji_consist.field]
+        stem_id = "ID:Kanji"
+        radical_id = "ID:Radical"
+        composition_id = "ID:Kanji"
