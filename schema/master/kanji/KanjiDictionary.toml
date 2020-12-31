@@ -1,0 +1,382 @@
+[masterdata.kanji.dictionary]
+
+  [masterdata.kanji.dictionary.yama]
+    id = 0
+    character = "山"
+    trivia = "象形文字です。連なった山々の象形から「山」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.tera]
+    id = 1
+    character = "寺"
+    trivia = "形声文字です。「植物の芽生えの象形」(「止」に通じ、「とどまる」の意味)と「手の象形」から法を持ち役人が駐在する所、「役所」を意味する「寺」という漢字が成り立ちました。※仏教伝来以降、「てら」の意味も表すようになりました。"
+  [masterdata.kanji.dictionary.ou]
+    id = 2
+    character = "王"
+    trivia = "象形文字です。「古代中国で、支配の象徴として用いられたまさかり」の象形から「きみ・おう」を意味する「王」という漢字が成り立ちました。※「まさかりと(鉞)」は・・・刃渡りが広い大きい斧の事を言います。※殷の時代、王が正義をとり行う具と考えられていました。"
+  [masterdata.kanji.dictionary.ikiru]
+    id = 3
+    character = "生"
+    trivia = "象形文字です。「草木が地上に生じてきた」象形から「はえる」、「いきる」を意味する「生」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.ta]
+    id = 4
+    character = "田"
+    trivia = "象形文字です。「区画された狩猟地・耕地」の象形から「狩り・田畑」を意味する「田」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.oni]
+    id = 5
+    character = "鬼"
+    trivia = "象形文字です。「グロテスクな頭部を持つ人」の象形から、「おに(人の形をして角があり、裸で虎のふんどしをしている)」、「死者の魂」、「ばけもの」を意味する「鬼」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.kiru]
+    id = 6
+    character = "斬"
+    trivia = "会意文字です(車+斤)。「車」の象形と「曲がった柄の先に刃をつけた斧」の象形から、「車でひき、斧で切る刑罰の名」を意味する「斬」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.tsutsumu]
+    id = 7
+    character = "包"
+    trivia = "形声文字です。「人が腕を伸ばしてかかえ込んでいる」象形と「胎児」の象形から、「つつむ」を意味する「包」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.shiro]
+    id = 8
+    character = "白"
+    trivia = "象形文字です。「頭の白い骨とも、日光とも、どんぐりの実」とも言われる象形から、「しろい」を意味する「白」という漢字が成り立ちました。※どんぐりの色ですが「茶色」になる前は「白っぽい色」をしてます。"
+  [masterdata.kanji.dictionary.wakeru]
+    id = 9
+    character = "分"
+    trivia = "会意文字です(八+刀)。「刀で二つに切り分ける」象形から「わける・時間を分ける(時間の単位)」を意味する「分」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.katsu]
+    id = 10
+    character = "且"
+    trivia = "象形文字です。「台上に神へのいけにえを積み重ねた」象形から、「まないた」を意味する「且」という漢字が成り立ちました。転じて、「かつ(さらに、その上)」、「まさに・・・す(今にも・・・しようとする)」などの意味も表すようになりました。"
+  [masterdata.kanji.dictionary.takumi]
+    id = 11
+    character = "工"
+    trivia = "象形文字です。「握る所のある、のみ または、さしがね」の象形から「工作する」を意味する「工」という漢字が成り立ちました。"
+  [masterdata.kanji.dictionary.sen]
+    id = 12
+    character = "仙"
+    trivia = ""
+  [masterdata.kanji.dictionary.sukuu]
+    id = 13
+    character = "汕"
+    trivia = ""
+  [masterdata.kanji.dictionary.mama]
+    id = 14
+    character = "圸"
+    trivia = ""
+  [masterdata.kanji.dictionary.deru]
+    id = 15
+    character = "出"
+    trivia = ""
+  [masterdata.kanji.dictionary.soma]
+    id = 16
+    character = "杣"
+    trivia = ""
+  [masterdata.kanji.dictionary.senki]
+    id = 17
+    character = "疝"
+    trivia = ""
+  [masterdata.kanji.dictionary.arashi]
+    id = 18
+    character = "嵐"
+    trivia = ""
+  [masterdata.kanji.dictionary.samurai]
+    id = 19
+    character = "侍"
+    trivia = ""
+  [masterdata.kanji.dictionary.sobadatsu]
+    id = 20
+    character = "峙"
+    trivia = ""
+  [masterdata.kanji.dictionary.tanomu]
+    id = 21
+    character = "恃"
+    trivia = ""
+  [masterdata.kanji.dictionary.toki]
+    id = 22
+    character = "時"
+    trivia = ""
+  [masterdata.kanji.dictionary.di]
+    id = 23
+    character = "痔"
+    trivia = ""
+  [masterdata.kanji.dictionary.hitoshii]
+    id = 24
+    character = "等"
+    trivia = ""
+  [masterdata.kanji.dictionary.uta]
+    id = 25
+    character = "詩"
+    trivia = ""
+  [masterdata.kanji.dictionary.subete]
+    id = 26
+    character = "全"
+    trivia = ""
+  [masterdata.kanji.dictionary.shimesu]
+    id = 27
+    character = "呈"
+    trivia = ""
+  [masterdata.kanji.dictionary.ike]
+    id = 28
+    character = "汪"
+    trivia = ""
+  [masterdata.kanji.dictionary.mageru]
+    id = 29
+    character = "枉"
+    trivia = ""
+  [masterdata.kanji.dictionary.sakan]
+    id = 30
+    character = "旺"
+    trivia = ""
+  [masterdata.kanji.dictionary.kuruu]
+    id = 31
+    character = "狂"
+    trivia = ""
+  [masterdata.kanji.dictionary.saga]
+    id = 32
+    character = "性"
+    trivia = ""
+  [masterdata.kanji.dictionary.hoshi]
+    id = 33
+    character = "星"
+    trivia = ""
+  [masterdata.kanji.dictionary.shounofue]
+    id = 34
+    character = "笙"
+    trivia = ""
+  [masterdata.kanji.dictionary.sei]
+    id = 35
+    character = "鉎"
+    trivia = ""
+  [masterdata.kanji.dictionary.otoko]
+    id = 36
+    character = "男"
+    trivia = ""
+  [masterdata.kanji.dictionary.tsukuda]
+    id = 37
+    character = "佃"
+    trivia = ""
+  [masterdata.kanji.dictionary.nae]
+    id = 38
+    character = "苗"
+    trivia = ""
+  [masterdata.kanji.dictionary.denden]
+    id = 39
+    character = "沺"
+    trivia = ""
+  [masterdata.kanji.dictionary.kudamono]
+    id = 40
+    character = "果"
+    trivia = ""
+  [masterdata.kanji.dictionary.omou]
+    id = 41
+    character = "思"
+    trivia = ""
+  [masterdata.kanji.dictionary.i]
+    id = 42
+    character = "胃"
+    trivia = ""
+  [masterdata.kanji.dictionary.hatake]
+    id = 43
+    character = "畑"
+    trivia = ""
+  [masterdata.kanji.dictionary.ikaduchi]
+    id = 44
+    character = "雷"
+    trivia = ""
+  [masterdata.kanji.dictionary.kanzashi]
+    id = 45
+    character = "鈿"
+    trivia = ""
+  [masterdata.kanji.dictionary.akanegusa]
+    id = 46
+    character = "蒐"
+    trivia = ""
+  [masterdata.kanji.dictionary.katamari]
+    id = 47
+    character = "塊"
+    trivia = ""
+  [masterdata.kanji.dictionary.ookii]
+    id = 48
+    character = "嵬"
+    trivia = ""
+  [masterdata.kanji.dictionary.enju]
+    id = 49
+    character = "槐"
+    trivia = ""
+  [masterdata.kanji.dictionary.haji]
+    id = 50
+    character = "愧"
+    trivia = ""
+  [masterdata.kanji.dictionary.youyaku]
+    id = 51
+    character = "漸"
+    trivia = ""
+  [masterdata.kanji.dictionary.hori]
+    id = 52
+    character = "塹"
+    trivia = ""
+  [masterdata.kanji.dictionary.kewashii]
+    id = 53
+    character = "嶄"
+    trivia = ""
+  [masterdata.kanji.dictionary.hangi]
+    id = 54
+    character = "槧"
+    trivia = ""
+  [masterdata.kanji.dictionary.hajiru]
+    id = 55
+    character = "慙"
+    trivia = ""
+  [masterdata.kanji.dictionary.shibaraku]
+    id = 56
+    character = "暫"
+    trivia = ""
+  [masterdata.kanji.dictionary.tagane]
+    id = 57
+    character = "鏨"
+    trivia = ""
+  [masterdata.kanji.dictionary.tsuto]
+    id = 58
+    character = "苞"
+    trivia = ""
+  [masterdata.kanji.dictionary.hoeru]
+    id = 59
+    character = "咆"
+    trivia = ""
+  [masterdata.kanji.dictionary.awa]
+    id = 60
+    character = "泡"
+    trivia = ""
+  [masterdata.kanji.dictionary.hikkaku]
+    id = 61
+    character = "垉"
+    trivia = ""
+  [masterdata.kanji.dictionary.hara]
+    id = 62
+    character = "胞"
+    trivia = ""
+  [masterdata.kanji.dictionary.aburu]
+    id = 63
+    character = "炮"
+    trivia = ""
+  [masterdata.kanji.dictionary.oodutsu]
+    id = 64
+    character = "砲"
+    trivia = ""
+  [masterdata.kanji.dictionary.tobihi]
+    id = 65
+    character = "疱"
+    trivia = ""
+  [masterdata.kanji.dictionary.hyou]
+    id = 66
+    character = "雹"
+    trivia = ""
+  [masterdata.kanji.dictionary.kanna]
+    id = 67
+    character = "鉋"
+    trivia = ""
+  [masterdata.kanji.dictionary.hatagashira]
+    id = 68
+    character = "伯"
+    trivia = ""
+  [masterdata.kanji.dictionary.tomaru]
+    id = 69
+    character = "泊"
+    trivia = ""
+  [masterdata.kanji.dictionary.sako]
+    id = 70
+    character = "岶"
+    trivia = ""
+  [masterdata.kanji.dictionary.kashiwa]
+    id = 71
+    character = "柏"
+    trivia = ""
+  [masterdata.kanji.dictionary.osoreru]
+    id = 72
+    character = "怕"
+    trivia = ""
+  [masterdata.kanji.dictionary.komainu]
+    id = 73
+    character = "狛"
+    trivia = ""
+  [masterdata.kanji.dictionary.koubashii]
+    id = 74
+    character = "芬"
+    trivia = ""
+  [masterdata.kanji.dictionary.funsui]
+    id = 75
+    character = "汾"
+    trivia = ""
+  [masterdata.kanji.dictionary.wakareme]
+    id = 76
+    character = "岔"
+    trivia = ""
+  [masterdata.kanji.dictionary.nire]
+    id = 77
+    character = "枌"
+    trivia = ""
+  [masterdata.kanji.dictionary.ikaru]
+    id = 78
+    character = "忿"
+    trivia = ""
+  [masterdata.kanji.dictionary.kiri]
+    id = 79
+    character = "雰"
+    trivia = ""
+  [masterdata.kanji.dictionary.asa]
+    id = 80
+    character = "苴"
+    trivia = ""
+  [masterdata.kanji.dictionary.kamu]
+    id = 81
+    character = "咀"
+    trivia = ""
+  [masterdata.kanji.dictionary.moreru]
+    id = 82
+    character = "沮"
+    trivia = ""
+  [masterdata.kanji.dictionary.soba]
+    id = 83
+    character = "岨"
+    trivia = ""
+  [masterdata.kanji.dictionary.shiraberu]
+    id = 84
+    character = "査"
+    trivia = ""
+  [masterdata.kanji.dictionary.ishiyama]
+    id = 85
+    character = "砠"
+    trivia = ""
+  [masterdata.kanji.dictionary.haremono]
+    id = 86
+    character = "疽"
+    trivia = ""
+  [masterdata.kanji.dictionary.noroi]
+    id = 87
+    character = "詛"
+    trivia = ""
+  [masterdata.kanji.dictionary.nerai]
+    id = 88
+    character = "狙"
+    trivia = ""
+  [masterdata.kanji.dictionary.isao]
+    id = 89
+    character = "功"
+    trivia = ""
+  [masterdata.kanji.dictionary.irie]
+    id = 90
+    character = "江"
+    trivia = ""
+  [masterdata.kanji.dictionary.daiku]
+    id = 91
+    character = "杢"
+    trivia = ""
+  [masterdata.kanji.dictionary.oshirinoana]
+    id = 92
+    character = "肛"
+    trivia = ""
+  [masterdata.kanji.dictionary.tobiishi]
+    id = 93
+    character = "矼"
+    trivia = ""
+  [masterdata.kanji.dictionary.uchiwamome]
+    id = 94
+    character = "訌"
+    trivia = ""
