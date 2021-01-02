@@ -1,4 +1,4 @@
-// This file is generated from RadicalParam.toml.
+// This file is generated from RadicalParam.toml
 #pragma once
 #include "IDs.hpp"
 
@@ -23,7 +23,7 @@ private: // field
     int m_jump;
     int m_weight;
 public: // ctor
-    MasterRadicalParam(RadicalID id, s3d::String character, int attack, int defence, int speed, int jump, int weight) :
+    MasterRadicalParam(RadicalID id, const s3d::String& character, int attack, int defence, int speed, int jump, int weight) :
     m_id(id),
     m_character(character),
     m_attack(attack),

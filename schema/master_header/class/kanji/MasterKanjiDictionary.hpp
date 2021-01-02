@@ -1,4 +1,4 @@
-// This file is generated from KanjiDictionary.toml.
+// This file is generated from KanjiDictionary.toml
 #pragma once
 #include "IDs.hpp"
 
@@ -15,7 +15,7 @@ private: // field
     s3d::String m_character;
     s3d::String m_trivia;
 public: // ctor
-    MasterKanjiDictionary(KanjiID id, s3d::String character, s3d::String trivia) :
+    MasterKanjiDictionary(KanjiID id, const s3d::String& character, const s3d::String& trivia) :
     m_id(id),
     m_character(character),
     m_trivia(trivia) {}

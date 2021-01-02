@@ -1,4 +1,4 @@
-// This file is generated from KanjiConsist.toml.
+// This file is generated from KanjiConsist.toml
 #pragma once
 #include "IDs.hpp"
 
