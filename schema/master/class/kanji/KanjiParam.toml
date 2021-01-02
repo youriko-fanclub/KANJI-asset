@@ -1,6 +1,6 @@
-[masterdata.kanji.param]
+[masterdata]
 
-  [masterdata.kanji.param.yama]
+  [masterdata.yama]
     id = 0
     character = "山"
     attack  = 150
@@ -9,7 +9,7 @@
     jump    =  10
     weight  =  50
 
-  [masterdata.kanji.param.tera]
+  [masterdata.tera]
     id = 1
     character = "寺"
     attack  = 120
@@ -18,7 +18,7 @@
     jump    =  50
     weight  =  32
 
-  [masterdata.kanji.param.ou]
+  [masterdata.ou]
     id = 2
     character = "王"
     attack  = 120
@@ -27,7 +27,7 @@
     jump    = 120
     weight  =  35
 
-  [masterdata.kanji.param.ikiru]
+  [masterdata.ikiru]
     id = 3
     character = "生"
     attack  =  70
@@ -36,7 +36,7 @@
     jump    = 100
     weight  =  37
 
-  [masterdata.kanji.param.ta]
+  [masterdata.ta]
     id = 4
     character = "田"
     attack  = 150
@@ -45,7 +45,7 @@
     jump    =  50
     weight  =  40
 
-  [masterdata.kanji.param.oni]
+  [masterdata.oni]
     id = 5
     character = "鬼"
     attack  = 200
@@ -54,7 +54,7 @@
     jump    =  70
     weight  =  40
 
-  [masterdata.kanji.param.kiru]
+  [masterdata.kiru]
     id = 6
     character = "斬"
     attack  = 250
@@ -63,7 +63,7 @@
     jump    = 150
     weight  =  25
 
-  [masterdata.kanji.param.tsutsumu]
+  [masterdata.tsutsumu]
     id = 7
     character = "包"
     attack  =  50
@@ -72,7 +72,7 @@
     jump    = 100
     weight  =  38
 
-  [masterdata.kanji.param.shiro]
+  [masterdata.shiro]
     id = 8
     character = "白"
     attack  = 120
@@ -81,7 +81,7 @@
     jump    = 150
     weight  =  33
 
-  [masterdata.kanji.param.wakeru]
+  [masterdata.wakeru]
     id = 9
     character = "分"
     attack  = 180
@@ -90,7 +90,7 @@
     jump    = 120
     weight  =  32
 
-  [masterdata.kanji.param.katsu]
+  [masterdata.katsu]
     id = 10
     character = "且"
     attack  = 200
@@ -99,7 +99,7 @@
     jump    = 100
     weight  =  28
 
-  [masterdata.kanji.param.takumi]
+  [masterdata.takumi]
     id = 11
     character = "工"
     attack  = 170

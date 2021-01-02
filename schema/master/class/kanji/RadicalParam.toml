@@ -1,6 +1,6 @@
-[masterdata.kanji.radical.param]
+[masterdata]
 
-  [masterdata.kanji.radical.param.chikara]
+  [masterdata.chikara]
     id = 1000000
     character = "力"
     attack  = 30
@@ -9,7 +9,7 @@
     jump    = 10
     weight  =  1
 
-  [masterdata.kanji.radical.param.hito]
+  [masterdata.hito]
     id = 1000001
     character = "人"
     attack  = 10
@@ -18,7 +18,7 @@
     jump    = 10
     weight  =  1
 
-  [masterdata.kanji.radical.param.kusa]
+  [masterdata.kusa]
     id = 1000002
     character = "艸"
     attack  = 10
@@ -27,7 +27,7 @@
     jump    = 10
     weight  =  1
 
-  [masterdata.kanji.radical.param.kuchi]
+  [masterdata.kuchi]
     id = 1000003
     character = "口"
     attack  = 10
@@ -36,7 +36,7 @@
     jump    = 10
     weight  =  1
 
-  [masterdata.kanji.radical.param.mizu]
+  [masterdata.mizu]
     id = 1000004
     character = "水"
     attack  = 10
@@ -45,7 +45,7 @@
     jump    = 10
     weight  =  1
 
-  [masterdata.kanji.radical.param.tsuchi]
+  [masterdata.tsuchi]
     id = 1000005
     character = "土"
     attack  = 20
@@ -54,7 +54,7 @@
     jump    =  0
     weight  =  2
 
-  [masterdata.kanji.radical.param.yama]
+  [masterdata.yama]
     id = 1000006
     character = "山"
     attack  = 20
@@ -63,7 +63,7 @@
     jump    =  0
     weight  =  3
 
-  [masterdata.kanji.radical.param.ki]
+  [masterdata.ki]
     id = 1000007
     character = "木"
     attack  = 10
@@ -72,7 +72,7 @@
     jump    =  0
     weight  =  1
 
-  [masterdata.kanji.radical.param.kokoro]
+  [masterdata.kokoro]
     id = 1000008
     character = "心"
     attack  = 20
@@ -81,7 +81,7 @@
     jump    = 10
     weight  =  0
 
-  [masterdata.kanji.radical.param.tsuki]
+  [masterdata.tsuki]
     id = 1000009
     character = "月"
     attack  = 10
@@ -90,7 +90,7 @@
     jump    = 20
     weight  =  2
 
-  [masterdata.kanji.radical.param.nichi]
+  [masterdata.nichi]
     id = 1000010
     character = "日"
     attack  = 20
@@ -99,7 +99,7 @@
     jump    = 20
     weight  =  3
 
-  [masterdata.kanji.radical.param.hi]
+  [masterdata.hi]
     id = 1000011
     character = "火"
     attack  = 30
@@ -108,7 +108,7 @@
     jump    = 30
     weight  =  0
 
-  [masterdata.kanji.radical.param.ishi]
+  [masterdata.ishi]
     id = 1000012
     character = "石"
     attack  = 20
@@ -117,7 +117,7 @@
     jump    =  0
     weight  =  3
 
-  [masterdata.kanji.radical.param.yamai]
+  [masterdata.yamai]
     id = 1000013
     character = "病"
     attack  = 50
@@ -126,7 +126,7 @@
     jump    =  0
     weight  =  0
 
-  [masterdata.kanji.radical.param.take]
+  [masterdata.take]
     id = 1000014
     character = "竹"
     attack  = 10
@@ -135,7 +135,7 @@
     jump    = 10
     weight  =  1
 
-  [masterdata.kanji.radical.param.kotoba]
+  [masterdata.kotoba]
     id = 1000015
     character = "言"
     attack  = 10
@@ -144,7 +144,7 @@
     jump    = 20
     weight  =  0
 
-  [masterdata.kanji.radical.param.ame]
+  [masterdata.ame]
     id = 1000016
     character = "雨"
     attack  = 20
@@ -153,7 +153,7 @@
     jump    =  0
     weight  =  1
 
-  [masterdata.kanji.radical.param.kane]
+  [masterdata.kane]
     id = 1000017
     character = "金"
     attack  = 20
@@ -162,7 +162,7 @@
     jump    = 10
     weight  =  2
 
-  [masterdata.kanji.radical.param.kaze]
+  [masterdata.kaze]
     id = 1000018
     character = "風"
     attack  = 20
@@ -171,7 +171,7 @@
     jump    = 30
     weight  =  0
 
-  [masterdata.kanji.radical.param.kemono]
+  [masterdata.kemono]
     id = 1000019
     character = "獣"
     attack  = 30
