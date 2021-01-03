@@ -6,8 +6,8 @@ namespace kanji {
 namespace md {
 
 void MasterRadicalDictionaryRepository::initialize() {
-    const dx::cmp::TomlAsset toml(U"RadicalDictionary");
-    const dx::cmp::TomlKey key(U"masterdata");
+    const dx::toml::TomlAsset toml(U"RadicalDictionary");
+    const dx::toml::TomlKey key(U"masterdata");
     s3d::TOMLTableView table = toml[key].tableView();
     for (const s3d::TOMLTableMember& table_member : table) {
         const auto& toml_value = table_member.value;
