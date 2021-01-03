@@ -1,25 +1,25 @@
 // This file is generated from KanjiParam.toml
 #include "MasterKanjiParamRepository.hpp"
-#include "HotReloadManager.hpp"
+#include "TomlAsset.hpp"
 
 namespace kanji {
 namespace md {
 
 void MasterKanjiParamRepository::initialize() {
-    const auto& param = dx::cmp::HotReloadManager::createParamsWithLoad(U"masterdata/kanji/KanjiParam");
-    const s3d::String key = U"masterdata";
-    s3d::TOMLTableView table = param->getTOML(key).tableView();
+    const dx::cmp::TomlAsset toml(U"KanjiParam");
+    const dx::cmp::TomlKey key(U"masterdata");
+    s3d::TOMLTableView table = toml[key].tableView();
     for (const s3d::TOMLTableMember& table_member : table) {
-        const auto& toml = table_member.value;
-        m_data.insert(std::make_pair(KanjiID(toml[U"id"].get<int>()),
+        const auto& toml_value = table_member.value;
+        m_data.insert(std::make_pair(KanjiID(toml_value[U"id"].get<int>()),
             std::make_unique<kanji::md::MasterKanjiParam>(
-                KanjiID(toml[U"id"].get<int>()),
-                toml[U"character"].get<s3d::String>(),
-                toml[U"attack"].get<int>(),
-                toml[U"defence"].get<int>(),
-                toml[U"speed"].get<int>(),
-                toml[U"jump"].get<int>(),
-                toml[U"weight"].get<int>())));
+                KanjiID(toml_value[U"id"].get<int>()),
+                toml_value[U"character"].get<s3d::String>(),
+                toml_value[U"attack"].get<int>(),
+                toml_value[U"defence"].get<int>(),
+                toml_value[U"speed"].get<int>(),
+                toml_value[U"jump"].get<int>(),
+                toml_value[U"weight"].get<int>())));
     }
 }
 
