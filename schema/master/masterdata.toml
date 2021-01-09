@@ -13,9 +13,9 @@
 
   [masterdata.kanji]
 
-    [masterdata.kanji.kanji_parameter]
+    [masterdata.kanji.md_kanji_parameter]
       data_type_name = "KanjiParam"
-      [masterdata.kanji.kanji_parameter.field]
+      [masterdata.kanji.md_kanji_parameter.field]
         id = "Kanji:ID:PKey"
         character = "string"
         attack  = "int"
@@ -24,16 +24,16 @@
         jump    = "int"
         weight  = "int"
 
-    [masterdata.kanji.kanji_dictionary]
+    [masterdata.kanji.md_kanji_dictionary]
       data_type_name = "KanjiDictionary"
-      [masterdata.kanji.kanji_dictionary.field]
+      [masterdata.kanji.md_kanji_dictionary.field]
         id = "Kanji:ID:PKey"
         character = "string"
         trivia = "string"
 
-    [masterdata.kanji.radical_parameter]
+    [masterdata.kanji.md_radical_parameter]
       data_type_name = "RadicalParam"
-      [masterdata.kanji.radical_parameter.field]
+      [masterdata.kanji.md_radical_parameter.field]
         id = "Radical:ID:PKey"
         character = "string"
         attack  = "int"
@@ -42,16 +42,16 @@
         jump    = "int"
         weight  = "int"
 
-    [masterdata.kanji.radical_dictionary]
+    [masterdata.kanji.md_radical_dictionary]
       data_type_name = "RadicalDictionary"
-      [masterdata.kanji.radical_dictionary.field]
+      [masterdata.kanji.md_radical_dictionary.field]
         id = "Radical:ID:PKey"
         character = "string"
         trivia = "string"
 
-    [masterdata.kanji.kanji_consist]
+    [masterdata.kanji.md_kanji_consist]
       data_type_name = "KanjiConsist"
-      [masterdata.kanji.kanji_consist.field]
+      [masterdata.kanji.md_kanji_consist.field]
         stem_id = "Kanji:ID"
         radical_id = "Radical:ID"
         composition_id = "Kanji:ID:PKey"
