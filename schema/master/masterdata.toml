@@ -55,3 +55,20 @@
         stem_id = "Kanji:ID"
         radical_id = "Radical:ID"
         composition_id = "Kanji:ID:PKey"
+
+    [masterdata.md_stage]
+      data_type_name = "Stage"
+      [masterdata.md_stage.field]
+        id = "Stage:ID:PKey"
+        name = "string"
+        initialposition_1players_0 = "Vec2"
+        initialposition_2players_0 = "Vec2"
+        initialposition_2players_1 = "Vec2"
+        initialposition_3players_0 = "Vec2"
+        initialposition_3players_1 = "Vec2"
+        initialposition_3players_2 = "Vec2"
+        initialposition_4players_0 = "Vec2"
+        initialposition_4players_1 = "Vec2"
+        initialposition_4players_2 = "Vec2"
+        initialposition_4players_3 = "Vec2"
+

@@ -11,3 +11,7 @@
     name = "Move"
     begin = 200000
     end   = 299999
+  [id.stage]
+    name = "Stage"
+    begin = 300000
+    end   = 399999
