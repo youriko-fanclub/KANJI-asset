@@ -1,7 +1,6 @@
 [battle]
   [battle.debug_desc]
     timelimit = 200
-    stage_id = 0
   [battle.ui]
     [battle.ui.base]
       scale = 5

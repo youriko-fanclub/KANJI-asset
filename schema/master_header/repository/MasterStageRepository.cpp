@@ -15,6 +15,7 @@ void MasterStageRepository::initialize() {
             std::make_unique<kanji::md::MasterStage>(
                 StageID(toml_value[U"id"].get<int>()),
                 toml_value[U"name"].get<s3d::String>(),
+                toml_value[U"bgm"].get<s3d::String>(),
                 dx::toml::vec2(toml_value[U"initialposition_1players_0"]),
                 dx::toml::vec2(toml_value[U"initialposition_2players_0"]),
                 dx::toml::vec2(toml_value[U"initialposition_2players_1"]),

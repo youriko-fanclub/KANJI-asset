@@ -61,6 +61,7 @@
       [masterdata.md_stage.field]
         id = "Stage:ID:PKey"
         name = "string"
+        bgm = "string"
         initialposition_1players_0 = "Vec2"
         initialposition_2players_0 = "Vec2"
         initialposition_2players_1 = "Vec2"
