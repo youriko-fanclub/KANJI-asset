@@ -1,0 +1,57 @@
+# masterdata の型定義
+# - 用途
+#   - 実データtoml の vaildation
+#   - MasterData型 hpp/cpp の自動生成
+# - 記法
+#   - [masterdata.<DIRECTORY_NAME>.<FILE_NAME>] (snake_case)
+#   - data_type_name = <CPP_TYPE_NAME>
+#   - 以下、<FIELD_NAME> = "<TYPE>:<ATTRIBUTES>""
+#   - ATTRIBUTES (複数ある場合は':'でつなげる)
+#       - ID: ID型、validationが実行される
+#       - PKey: Repositoryの主キーとして用いられる
+[masterdata]
+
+  [masterdata.kanji]
+
+    [masterdata.kanji.kanji_parameter]
+      data_type_name = "KanjiParam"
+      [masterdata.kanji.kanji_parameter.field]
+        id = "Kanji:ID:PKey"
+        character = "string"
+        attack  = "int"
+        defence = "int"
+        speed   = "int"
+        jump    = "int"
+        weight  = "int"
+
+    [masterdata.kanji.kanji_dictionary]
+      data_type_name = "KanjiDictionary"
+      [masterdata.kanji.kanji_dictionary.field]
+        id = "Kanji:ID:PKey"
+        character = "string"
+        trivia = "string"
+
+    [masterdata.kanji.radical_parameter]
+      data_type_name = "RadicalParam"
+      [masterdata.kanji.radical_parameter.field]
+        id = "Radical:ID:PKey"
+        character = "string"
+        attack  = "int"
+        defence = "int"
+        speed   = "int"
+        jump    = "int"
+        weight  = "int"
+
+    [masterdata.kanji.radical_dictionary]
+      data_type_name = "RadicalDictionary"
+      [masterdata.kanji.radical_dictionary.field]
+        id = "Radical:ID:PKey"
+        character = "string"
+        trivia = "string"
+
+    [masterdata.kanji.kanji_consist]
+      data_type_name = "KanjiConsist"
+      [masterdata.kanji.kanji_consist.field]
+        stem_id = "Kanji:ID"
+        radical_id = "Radical:ID"
+        composition_id = "Kanji:ID:PKey"
