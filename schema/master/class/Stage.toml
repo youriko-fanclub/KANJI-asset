@@ -1,0 +1,60 @@
+[masterdata]
+
+  [masterdata.notebook]
+    id = 300000
+    name = "Notebook"
+    bgm = "Battle01"
+    initialposition_1players_0 = { x = 0, y = -5 }
+    initialposition_2players_0 = { x = -15, y = -5 }
+    initialposition_2players_1 = { x = 15, y = -5 }
+    initialposition_3players_0 = { x = -15, y = -5 }
+    initialposition_3players_1 = { x = 0, y = -5 }
+    initialposition_3players_2 = { x = 15, y = -5 }
+    initialposition_4players_0 = { x = -15, y = -5 }
+    initialposition_4players_1 = { x = -5, y = -5 }
+    initialposition_4players_2 = { x = 5, y = -5 }
+    initialposition_4players_3 = { x = 15, y = -5 }
+  [masterdata.blackboard]
+    id = 300001
+    name = "BlackBoard"
+    bgm = "Battle02"
+    initialposition_1players_0 = { x = 0, y = -5 }
+    initialposition_2players_0 = { x = -15, y = -5 }
+    initialposition_2players_1 = { x = 15, y = -5 }
+    initialposition_3players_0 = { x = -15, y = -5 }
+    initialposition_3players_1 = { x = 0, y = -5 }
+    initialposition_3players_2 = { x = 15, y = -5 }
+    initialposition_4players_0 = { x = -15, y = -5 }
+    initialposition_4players_1 = { x = -5, y = -5 }
+    initialposition_4players_2 = { x = 5, y = -5 }
+    initialposition_4players_3 = { x = 15, y = -5 }
+  [masterdata.scroll]
+    id = 300002
+    name = "Scroll"
+    bgm = "Battle03"
+    initialposition_1players_0 = { x = 0, y = -5 }
+    initialposition_2players_0 = { x = -15, y = -5 }
+    initialposition_2players_1 = { x = 15, y = -5 }
+    initialposition_3players_0 = { x = -15, y = -5 }
+    initialposition_3players_1 = { x = 0, y = -5 }
+    initialposition_3players_2 = { x = 15, y = -5 }
+    initialposition_4players_0 = { x = -15, y = -5 }
+    initialposition_4players_1 = { x = -5, y = -5 }
+    initialposition_4players_2 = { x = 5, y = -5 }
+    initialposition_4players_3 = { x = 15, y = -5 }
+#    [masterdata.notebook.initialposition]
+#      [masterdata.notebook.initialposition.1players]
+#        0 = { x = 0, y = -5 }
+#      [masterdata.notebook.initialposition.2players]
+#        0 = { x = -15, y = -5 }
+#        1 = { x = 15, y = -5 }
+#      [masterdata.notebook.initialposition.3players]
+#        0 = { x = -15, y = -5 }
+#        1 = { x = 0, y = -5 }
+#        2 = { x = 15, y = -5 }
+#      [masterdata.notebook.initialposition.4players]
+#        0 = { x = -15, y = -5 }
+#        1 = { x = -5, y = -5 }
+#        2 = { x = 5, y = -5 }
+#        3 = { x = 15, y = -5 }
+

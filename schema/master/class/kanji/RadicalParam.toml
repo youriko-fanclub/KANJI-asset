@@ -1,7 +1,7 @@
 [masterdata]
 
   [masterdata.chikara]
-    id = 1000000
+    id = 100000
     character = "力"
     attack  = 30
     defence = 10
@@ -10,7 +10,7 @@
     weight  =  1
 
   [masterdata.hito]
-    id = 1000001
+    id = 100001
     character = "人"
     attack  = 10
     defence = 10
@@ -19,7 +19,7 @@
     weight  =  1
 
   [masterdata.kusa]
-    id = 1000002
+    id = 100002
     character = "艸"
     attack  = 10
     defence = 10
@@ -28,7 +28,7 @@
     weight  =  1
 
   [masterdata.kuchi]
-    id = 1000003
+    id = 100003
     character = "口"
     attack  = 10
     defence = 10
@@ -37,7 +37,7 @@
     weight  =  1
 
   [masterdata.mizu]
-    id = 1000004
+    id = 100004
     character = "水"
     attack  = 10
     defence = 20
@@ -46,7 +46,7 @@
     weight  =  1
 
   [masterdata.tsuchi]
-    id = 1000005
+    id = 100005
     character = "土"
     attack  = 20
     defence = 20
@@ -55,7 +55,7 @@
     weight  =  2
 
   [masterdata.yama]
-    id = 1000006
+    id = 100006
     character = "山"
     attack  = 20
     defence = 20
@@ -64,7 +64,7 @@
     weight  =  3
 
   [masterdata.ki]
-    id = 1000007
+    id = 100007
     character = "木"
     attack  = 10
     defence = 20
@@ -73,7 +73,7 @@
     weight  =  1
 
   [masterdata.kokoro]
-    id = 1000008
+    id = 100008
     character = "心"
     attack  = 20
     defence = 10
@@ -82,7 +82,7 @@
     weight  =  0
 
   [masterdata.tsuki]
-    id = 1000009
+    id = 100009
     character = "月"
     attack  = 10
     defence = 30
@@ -91,7 +91,7 @@
     weight  =  2
 
   [masterdata.nichi]
-    id = 1000010
+    id = 100010
     character = "日"
     attack  = 20
     defence = 20
@@ -100,7 +100,7 @@
     weight  =  3
 
   [masterdata.hi]
-    id = 1000011
+    id = 100011
     character = "火"
     attack  = 30
     defence =  0
@@ -109,7 +109,7 @@
     weight  =  0
 
   [masterdata.ishi]
-    id = 1000012
+    id = 100012
     character = "石"
     attack  = 20
     defence = 30
@@ -118,7 +118,7 @@
     weight  =  3
 
   [masterdata.yamai]
-    id = 1000013
+    id = 100013
     character = "病"
     attack  = 50
     defence =  0
@@ -127,7 +127,7 @@
     weight  =  0
 
   [masterdata.take]
-    id = 1000014
+    id = 100014
     character = "竹"
     attack  = 10
     defence = 20
@@ -136,7 +136,7 @@
     weight  =  1
 
   [masterdata.kotoba]
-    id = 1000015
+    id = 100015
     character = "言"
     attack  = 10
     defence = 10
@@ -145,7 +145,7 @@
     weight  =  0
 
   [masterdata.ame]
-    id = 1000016
+    id = 100016
     character = "雨"
     attack  = 20
     defence = 20
@@ -154,7 +154,7 @@
     weight  =  1
 
   [masterdata.kane]
-    id = 1000017
+    id = 100017
     character = "金"
     attack  = 20
     defence = 10
@@ -163,7 +163,7 @@
     weight  =  2
 
   [masterdata.kaze]
-    id = 1000018
+    id = 100018
     character = "風"
     attack  = 20
     defence =  0
@@ -172,7 +172,7 @@
     weight  =  0
 
   [masterdata.kemono]
-    id = 1000019
+    id = 100019
     character = "獣"
     attack  = 30
     defence = 10
